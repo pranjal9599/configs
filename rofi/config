@@ -1,0 +1,37 @@
+
+! ------------------------------------------------------------------------------
+!                      ROFI Settings
+! ------------------------------------------------------------------------------
+
+! General
+rofi.font:                Iosevka Nerd Font Mono 12
+rofi.fake-transparency:   false
+rofi.hide-scrollbar:      true
+
+
+! Layout
+rofi.color-enabled:      true
+rofi.separator-style:    none
+rofi.line-padding:       10
+rofi.width:              40
+rofi.location:           0
+rofi.lines:              5
+rofi.padding:            20
+rofi.sidebar-mode:       false
+rofi.fullscreen:         false
+
+! ------------------------------------------------------------------------------
+!                      ROFI Color theme
+! ------------------------------------------------------------------------------
+
+!				   'background', 'border', 'separator'
+rofi.color-window: #000,      #000,  #000
+
+
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal: #000,  #fff,  #000,  #fff,  #000
+rofi.color-urgent: #111,  #f1f1f1,  #111,  #fff,  #f1f1f1
+rofi.color-active: #fff,  #222,  #fff,  #fff,  #fff
+
+rofi.ssh-client:ssh
+rofi.ssh-command: {termite} -e "{ssh-client} {host}"

@@ -1,0 +1,15 @@
+[options]
+browser = firefox
+clickable_url = true
+font = Iosevka Nerd Font Mono 12
+
+[colors]
+# http://terminal.sexy/#Jh858fHxGx0e2Q55mN4A_V13A8vKRztr_s-HzMzGUFNU_iB7tuNU_qGCLfzebnGc_vGE-Pjy
+# special
+foreground      = #f1f1f1
+foreground_bold = #f1f1f1
+cursor          = #f1f1f1
+background      = rgba(0, 0, 0, 1)
+
+color4 = #ffffff
+color10=#ffffff
